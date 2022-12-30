@@ -1,0 +1,18 @@
+
+/**
+ * 
+ * @param {HTMLDivElement} element 
+ */
+export const environmentsComponent = (element) => {
+  console.log(import.meta.env); // ver variables de entorno (Add VITE_EN_VARIABLES)
+
+  const html = `
+    Dev: ${ import.meta.env.DEV } <br/>
+    Prod: ${ import.meta.env.PROD } <br/>
+    Key: ${ import.meta.env.VITE_API_KEY } <br/>
+    Url: ${ import.meta.env.VITE_BASE_URL } <br/>
+  `;
+
+  element.innerHTML = html;
+
+}
