@@ -5,6 +5,7 @@ import { callbacksComponent } from './src/concepts/02-callbacks';
 import { callbacksHellComponent } from './src/concepts/03-callbacks-hell';
 import { promisesComponent } from './src/concepts/04-promises';
 import { promisesHellComponent } from './src/concepts/05-promises-hell';
+import { promiseRaceComponent } from './src/concepts/06-promises-race';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -26,4 +27,5 @@ const element = document.querySelector('.card');
 // callbacksComponent(element);
 // callbacksHellComponent(element);
 // promisesComponent(element);
-promisesHellComponent(element);
+// promisesHellComponent(element);
+promiseRaceComponent(element);
