@@ -7,7 +7,7 @@ import { heroes } from '../data/heroes';
 export const asyncAwaitComponent = async(element) => {
   
   const id1 = '5d86371fd55e2e2a30fe1ccb2';
-  const id2 = '5d86371fd55e2e2a30fe1cc42';
+  const id2 = '5d86371fd55e2e2a30fe1cc4';
 
   try {
     const hero1 = await findHero(id1); // si dura un segundo
